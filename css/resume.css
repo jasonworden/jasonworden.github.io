@@ -1,0 +1,477 @@
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('fonts/nexa_bold/nexa_bold-webfont.eot');
+    src: url('fonts/nexa_bold/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nexa_bold/nexa_bold-webfont.woff') format('woff'),
+         url('fonts/nexa_bold/nexa_bold-webfont.ttf') format('truetype'),
+         url('fonts/nexa_bold/nexa_bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  color: white;
+}
+
+body,
+h1, h2, h4, h5, h6, h4 a,
+div,
+.navbar ul li,
+.navbar ul li a,
+button,
+input,
+form,
+blockquote {
+    font-family: 'nexa_boldregular', 'Varela', "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p, a, ul, li, h3 {
+    font-family: Geneva, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+span.i-b {
+  display: inline-block;
+}
+
+section:nth-child(odd) {
+  background: rgba(0,0,0,.3);
+
+}
+
+section#intro,
+section#contact {
+  background: rgb(255, 193, 50);
+}
+
+section#svm {
+  background: rgb(0, 196, 175);
+}
+
+section#powwow {
+	background: rgb(248, 154, 58);
+}
+
+section#oniracom {
+  background: rgb(140,140,140);
+}
+
+section#edu {
+  background: rgb(0, 166, 230);
+}
+
+section#dev {
+  background: rgb(222, 0, 109);
+}
+
+section#cc {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2fede6+0,ff89e9+100 */
+  background: #2fede6; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #2fede6 0%, #ff89e9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #2fede6 0%,#ff89e9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #2fede6 0%,#ff89e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fede6', endColorstr='#ff89e9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+section#other {
+  background: rgb(193,128,255);
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+section .container.inner {
+  padding: 0 15px 35px 15px;
+}
+
+h1.big {
+  font-size: 1.8em;
+  padding-top: 0;
+}
+
+h2.section-title {
+  background: rgba(0,0,0,.08);
+  margin: 0;
+  font-size: 1.3em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+h5.position {
+  margin-bottom: 15px;
+}
+
+div.tri {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-top-width: 30px;
+  border-bottom-width: 30px;
+  border-top-color: rgba(0,0,0,.08);
+
+  position: absolute;
+  bottom: -60px;
+}
+
+.title-wrapper {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+i.section-bg {
+  position: absolute;
+  bottom: -50px;
+  right: -10px;
+  font-size: 300px;
+}
+
+img.section-bg {
+  position: absolute;
+}
+
+#intro .section-bg {
+  bottom: -3px;
+  right: -13px;
+}
+
+#other .section-bg {
+  bottom: -60px;
+}
+
+#svm .section-bg {
+  bottom: -10px;
+  right: -36px;
+  opacity: .1;
+}
+
+#oniracom .section-bg {
+  bottom: -60px;
+  right: -20px;
+}
+
+a, h4 a {
+  color: rgba(0,0,0,.5);
+  text-decoration: none;
+  -webkit-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    -moz-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    -o-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    -ms-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    transition: color .3s ease, border-color .3s ease, background .3s ease;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  line-height: 2em;
+}
+
+section#edu h3 {
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+
+section .container.inner,
+.full-height,
+table.section,
+table.section tbody,
+table.section tr,
+table.section td {
+  height: 100%;
+  vertical-align: middle;
+}
+
+section#svm table.section td {
+  vertical-align: text-top;
+}
+
+table.section td {
+
+  /*padding-bottom: 60px;*/
+}
+
+section#edu p {
+}
+
+section#edu h3 {
+  margin: 0;
+}
+
+.school {
+  margin-bottom: 20px;
+  border: 1px solid rgba(255,255,255,.3);
+  display: inline-block;
+  padding: 25px 25px 15px 25px;
+  border-radius: 10px;
+}
+
+.school-divider {
+  height: 1px;
+  width: 90px;
+  background: rgba(255,255,255,.3);
+  border: none;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.contact-divider {
+  height: 1px;
+  width: 90px;
+  background: rgba(255,255,255,.4);
+  border: none;
+  margin: 5px 0 15px 0;
+  text-align: left;
+}
+
+.other-divider {
+  height: 1px;
+  width: 90px;
+  background: rgba(255,255,255,.4);
+  border: none;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.vert-divider {
+  color: rgba(255,255,255,.3);
+  padding: 0 10px;
+}
+
+#svm p {
+  font-size: .9em;
+}
+
+h5 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+h5 i {
+  margin-right: 3px;
+}
+
+a#print h5 {
+  padding: 13px 22px 12px;
+  margin: 0;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  line-height: 1.3;
+  -webkit-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    -moz-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    -o-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    -ms-transition: color .3s ease, border-color .3s ease, background .3s ease;
+    transition: color .3s ease, border-color .3s ease, background .3s ease;
+  font-size: 1.1em;
+}
+
+a#print i {
+  margin-right: 15px;
+}
+
+a#print:hover h5 {
+  background: rgba(0,0,0,.05);
+}
+
+.skill-list-alt .skill:nth-child(odd) {
+  background: rgba(255,255,255,.2);
+}
+
+.other-skill {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+  color: white;
+}
+
+section#other h6 {
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  line-height: .9;
+}
+
+.other-skill h5 {
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+section#other h4 {
+  font-size: 1.4em;
+  color: white;
+}
+
+.other-skill .stars {
+  text-align: center;
+  color: white;
+}
+
+span.self-taught:after {
+  content: "self - taught";
+}
+
+@media (max-width: 480px) {
+  body { font-size: 15px }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body { font-size: 17px }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body { font-size: 18px }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body { font-size: 20px }
+}
+
+@media (max-width: 767px) {
+
+    h1.big {
+      padding-top: 15px;
+    }
+
+    section {
+      padding-bottom: 100px;
+    }
+
+    i.section-bg {
+      color: rgba(0,0,0,.033);
+      font-size: 150px;
+      bottom: -20px;
+    }
+
+    img.section-bg {
+      opacity: 0.033;
+      max-height: 155px;
+    }
+
+    section#oniracom .section-bg {
+      bottom: -10px;
+    }
+
+    .title-wrapper {
+      padding: 0;
+    }
+
+    h2.section-title {
+      text-align: left;
+      padding: 15px 30px;
+    }
+
+    div.tri {
+      border-left-width: 50px;
+      border-right-width: 50px;
+      left: 30px;
+    }
+
+    .skill {
+      padding: 10px;
+    }
+
+    span.self-taught {
+      font-size: .4em;
+      bottom: 4px;
+      margin-left: 2px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+  #undergrad {
+    margin-bottom: 20px;
+  }
+
+  i.section-bg {
+    color: rgba(0,0,0,.08);
+  }
+
+  img.section-bg {
+    opacity: 0.08;
+  }
+
+  h2.section-title {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    padding: 15px 30px 10px 30px;
+  }
+
+  div.tri {
+    border-left-width: 175px;
+    border-right-width: 175px;
+  }
+
+  .skill {
+    padding: 0 10px 3px 10px;
+  }
+
+  span.self-taught {
+    font-size: .3em;
+    bottom: 8px;
+    margin-left: 6px;
+  }
+
+}
+
+@media (min-width: 768px) and (min-height: 595px) {
+  /*section#intro .big {
+    padding-top: 30px;
+  }*/
+  table.section {
+    min-height: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  body { font-size: 22px }
+
+  h1.big {
+    font-size: 52px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+}
+
+.skills,
+.stars,
+h6 {
+  line-height: 1;
+}
+
+.stars {
+  display: inline-block;
+}
+
+.skill-list-alt .stars {
+  margin-right: 20px;
+}
+
+.skill-list-alt h6 {
+  display: inline-block;
+  line-height: 1.4em;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+span.self-taught {
+  display: none !important;
+  text-transform: uppercase;
+  padding: 4px;
+  background: rgba(0,0,0,.08);
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+}
