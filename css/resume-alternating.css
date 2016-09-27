@@ -368,11 +368,6 @@ section#other h4 {
 
 .other-skill .stars {
   text-align: center;
-  /*color: white;*/
-}
-
-span.self-taught:after {
-  content: "self - taught";
 }
 
 @media (max-width: 480px) {
@@ -435,12 +430,6 @@ span.self-taught:after {
       padding: 10px;
     }
 
-    span.self-taught {
-      font-size: .4em;
-      bottom: 4px;
-      margin-left: 2px;
-    }
-
 }
 
 @media (min-width: 768px) {
@@ -471,12 +460,6 @@ span.self-taught:after {
 
   .skill {
     padding: 0 10px 3px 10px;
-  }
-
-  span.self-taught {
-    font-size: .3em;
-    bottom: 8px;
-    margin-left: 6px;
   }
 
 }
@@ -534,16 +517,31 @@ h6 {
   margin-bottom: 5px;
 }
 
-span.self-taught {
-  display: none !important;
-  text-transform: uppercase;
-  padding: 4px;
-  background: rgba(0,0,0,.08);
-  border-radius: 4px;
-  position: relative;
-  display: inline-block;
-}
-
 h5 {
   text-transform: uppercase;
+}
+
+.skill-label {
+  line-height: 1em;
+  font-size: .6em;
+  background: rgb(0,209,180);
+  color: rgb(255,255,255);
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: lowercase;
+  border-radius: 5px;
+}
+
+@media(min-width: 768px) {
+  .skill-label {
+    position: relative;
+    bottom: 3px;
+    margin-left: .4em;
+  }
+}
+
+@media(min-width: 1200px) {
+  .skill-label {
+    bottom: 4px;
+  }
 }
