@@ -1,10 +1,39 @@
-<?php
-	include '../header.php';
-	include '../functions.php';
-?>
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--480-->
+	<title>Jason Worden | Resume</title>
+	<meta name="apple-mobile-web-app-title" content="Jason W.">
+	<link rel="shortcut icon" href="img/jw-favicon.png" />
+	<link rel="apple-touch-icon" sizes="192x192" href="img/jw-ios-icon.png"/>
+
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<![endif]-->
+	<script src="js/dist/head.load.min.js"></script>
+	<script>
+		//head.js('js/dist/jquery-1.10.2.js','js/dist/bootstrap.js');
+		head.js('js/dist/jquery-1.10.2.min.js','js/dist/bootstrap.min.js');
+	</script>
+	<link href='css/dist/bootstrap.css' rel='stylesheet' type='text/css'>
+	<!--link href='css/dist/bootstrap.min.css' rel='stylesheet' type='text/css'-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='css/resume-alternating.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
 <![if !IE]>
    <script>
-		head.js('../js/dist/jquery.onepage-scroll.js', '../js/resume.js');
+		head.js('js/dist/jquery.onepage-scroll.js', 'js/resume.js');
 	</script>
 <![endif]>
 
@@ -25,11 +54,15 @@
 			</div>
 		</div>
 		<i id="scroll-arrow" class="fa fa-angle-double-down icon-bouncing scroll-arrow lg" aria-hidden="true" style="display: none" data-target="1"></i>
-		<img class="section-bg" src="../img/portrait.png">
+		<img class="section-bg" src="img/portrait.png">
 	</section>
 
 	<section id="powwow">
-		<?php jwResumeSectionTitle('PowWow Energy'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">PowWow Energy</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12 col-sm-9 col-md-8 col-lg-6">
 				<h5 class="position">Front End / Full Stack Developer</h5>
@@ -47,7 +80,11 @@
 	</section>
 
 	<section id="oniracom">
-		<?php jwResumeSectionTitle('Oniracom'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Oniracom</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12 col-sm-9 col-md-8 col-lg-6">
 			<h5 class="position">Front End Developer</h5>
@@ -60,11 +97,15 @@
 			</div>
 		</div>
 		<i class="fa fa-angle-double-down scroll-arrow" aria-hidden="true" style="display: none" data-target="3"></i>
-		<img class="section-bg" src="../img/onira.png">
+		<img class="section-bg" src="img/onira.png">
 	</section>
 
 	<section id="svm">
-		<?php jwResumeSectionTitle('Speak Volumes'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Speak Volumes</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12 col-sm-9 col-md-8 col-lg-6">
 				<h5 class="position">Co-founder  /  Technical Lead / VJ</h5>
@@ -84,11 +125,15 @@
 			</div>
 		</div>
 		<i class="fa fa-angle-double-down scroll-arrow" aria-hidden="true" style="display: none" data-target="4"></i>
-		<img class="section-bg" src="../img/sv.png">
+		<img class="section-bg" src="img/sv.png">
 	</section>
 
 	<section id="edu">
-		<?php jwResumeSectionTitle('Education'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Education</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 
 			<div class="col-xs-12">
@@ -124,7 +169,11 @@
 	</section>
 
 	<section id="dev">
-		<?php jwResumeSectionTitle('Dev Skills'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Dev Skills</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12 skill-list-alt">
 				<div class="skill">
@@ -235,7 +284,11 @@
 	</section>
 
 	<section id="cc">
-		<?php jwResumeSectionTitle('Audio-visuals'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Audio-Visuals</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12 skill-list-alt">
 				<p>
@@ -317,7 +370,11 @@
 	</section>
 
 	<section id="other">
-		<?php jwResumeSectionTitle('Other Skills'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Other Skills</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12">
 				<div class="other-skill">
@@ -368,7 +425,11 @@
 	</section>
 
 	<section id="contact">
-		<?php jwResumeSectionTitle('Contact Me'); ?>
+		<div class="container title-wrapper">
+	 		<h2 class="section-title">Contact Me</h2>
+	 		<div class="tri"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
 		<div class="container inner">
 			<div class="col-xs-12">
 				<div class="address group">
@@ -405,7 +466,18 @@
 
 </div>
 
+<script type="text/javascript">
 
-<?php
-	include '../footer.php';
-?>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40624625-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
