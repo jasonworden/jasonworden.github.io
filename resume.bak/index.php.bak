@@ -1,0 +1,330 @@
+<?php
+	include '../header.php';
+	include '../functions.php';
+?>
+<![if !IE]>
+   <script>
+		head.js('../js/dist/jquery.onepage-scroll.js','../js/resume.js');
+	</script>
+<![endif]>
+
+<div id="main">
+
+	<section id="intro">
+		<div class="container inner">
+			<div class="col-xs-12 col-md-8 full-height">
+				<table class="section"><tr><td>
+					<h1 class="big">I'm Jason Worden,</h1>
+					<h3 id="undergrad">
+						a front-end developer.
+					</h3>
+					<h3>
+						I create user experiences that bleed simplicity through empathy for the end user.
+					</h3>
+				</td></tr></table>
+			</div>
+		</div>
+		<img class="section-bg" src="../img/portrait.png">
+	</section>
+
+	<section id="powwow">
+		<?php jwResumeSectionTitle('PowWow Energy'); ?>
+		<div class="container inner">
+			<div class="col-xs-12 col-sm-9 col-md-8 col-lg-6">
+				<h5 class="position">Front End Developer</h5>
+				<p><a target="_blank" href="//www.powwowenergy.com/">PowWow Energy</a> turns data into answers to make the life of growers easier—not harder.</p>
+				<p>
+					I utilize the Django web framework for Python as well as use front end technologies including jQuery, Knockout, Bootstrap, and the Google Maps JavaScript API to create a smooth user experience for growers and farm advisors.
+				</p>
+				<p>
+					I write Python scripts to automate the NDVI image processing pipeline, turning raw aerial imagery into processed results and insights within the user interface.
+				</p>
+			</div>
+		</div>
+		<i class="fa fa-leaf section-bg"></i>
+	</section>
+
+	<section id="oniracom">
+		<?php jwResumeSectionTitle('Oniracom'); ?>
+		<div class="container inner">
+			<div class="col-xs-12 col-sm-9 col-md-8 col-lg-6">
+			<h5 class="position">Developer</h5>
+				<p>I was a part of the <a target="_blank" href="http://oniracom.com/">Oniracom</a> team from July 2013 - May 2015 as a front-end developer.</p>
+				<p>I work closely with other developers, designers, strategists, and clients to help build responsive websites - most of them designed to be a breeze to manage in the back-end through ExpressionEngine, Wordpress, and WooCommerce.</p>
+				<p><em>for example:</em> <a target="_blank" href="http://sbmarathon.com/">Santa Barbara Marathon</a></p>
+				<p>
+					My time at Oniracom was an unforgettable learning experience alongside awesome folks!
+				</p>
+			</div>
+		</div>
+		<img class="section-bg" src="../img/onira.png">
+	</section>
+	
+	<section id="svm">
+		<?php jwResumeSectionTitle('Speak Volumes'); ?>
+		<div class="container inner">
+			<div class="col-xs-12 col-sm-9 col-md-8 col-lg-6">
+				<h5 class="position">Co-founder  /  Technical Lead</h5>
+				<p><a target="_blank" href="http://speakvolumesmedia.com/about-us">Speak Volumes</a> is a blog-based music site that I co-founded in April 2013.</p>
+				<p>I developed and designed the responsive website and have been a key decision-maker throughout.</p>
+				<p>We don't just cover music we like, but also focus on local acts in Santa Barbara - giving them exposure and chances to play live for eager music fans.</p>
+				<p>Fostering local and live talent is a proud mark left behind in the ever-so-transient culture of a college town.</p>
+				<p>Speak Volumes was my first website and it's been an honor giving my colleagues an outlet for their eloquent way with words about music.</p>
+			</div>
+		</div>
+		<img class="section-bg" src="../img/sv.png">
+	</section>
+
+	<section id="edu">
+		<?php jwResumeSectionTitle('Education'); ?>
+		<div class="container inner">
+
+			<div class="col-xs-12">
+				<div class="school">
+					<h3>
+						University of California, Santa Barbara (UCSB)
+					</h3>
+					<h5>
+						Computer Science B.A. with Geography Emphasis
+					</h5>
+					<hr class="school-divider">
+					<p>2010-2014</p>
+					<hr class="school-divider">
+					<p>3.60 GPA in C.S. coursework  <br> 3.47 GPA overall</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="school">
+					<h3>
+						Paraclete High School, Lancaster, CA
+					</h3>
+					<h5>Valedictiorian with 4.20 GPA</h5>
+					<hr class="school-divider">
+					<p>2006-2010</p>
+				</div>
+			</div>
+
+			<i class="fa fa-book section-bg"></i>
+
+		</div>
+
+
+	</section>
+
+	<section id="dev">
+		<?php jwResumeSectionTitle('Dev Skills'); ?>
+		<div class="container inner">
+			<div class="col-xs-12">
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-full"></i>
+					</div>
+					<h6>Client-side JavaScript + jQuery<span class="self-taught"></span></h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-full"></i>
+					</div>
+					<h6>HTML5/CSS3<span class="self-taught"></span></h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>Server-side Django web framework for Python<span class="self-taught"></span></h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>
+						Knockout (Model-View-ViewModel JS framework)
+					</h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>
+						Server-side Javascript with Node.js (Express, Socket.io)
+						<span class="self-taught"></span>
+					</h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>C/C++</h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>PHP<span class="self-taught"></span></h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>
+						Matlab
+						<i class="fa fa-ellipsis-v vert-divider"></i>
+						for math + image processing
+					</h6>
+				</div>
+				<div class="skill">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<h6>
+						Cinder
+						<i class="fa fa-ellipsis-v vert-divider"></i>
+						C++ library for creative coding of audio-visuals
+						<span class="self-taught"></span>
+					</h6>
+				</div>
+			</div>
+		</div>
+		<i class="fa fa-code section-bg"></i>
+	</section>
+
+	<section id="other">
+		<?php jwResumeSectionTitle('Other Skills'); ?>
+		<div class="container inner">
+			<div class="col-xs-12">
+				<div class="other-skill">
+					<h6>Ps</h6>
+					<h5>Photoshop</h5>
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+				<div class="other-skill">
+					<h6>Ai</h6>
+					<h5>Illustrator</h5>
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-empty"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+				<div class="other-skill">
+					<h6>Id</h6>
+					<h5>InDesign</h5>
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-empty"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+				<hr class="other-divider">
+				<h4>
+					Google Analytics: custom web implementations, dashboards, and reports
+				</h4>
+				<hr class="other-divider">
+				<h4>
+					Analytical + computer cartography
+					<span class="i-b">[<a target="_blank" href="http://jason-geog128.tumblr.com/">see work here</a>]</span>
+				</h4>
+				<hr class="other-divider">
+				<h4>
+					Projection mapping of live visuals for concert environments
+					<span class="i-b">[<a target="_blank" href="http://speakvolumesmedia.com/photos-giraffage-at-soho-with-underbelly-cubb/">see work here</a>]</span>
+				</h4>
+			</div>
+		</div>
+		<i class="fa fa-check section-bg"></i>
+	</section>
+
+	<section id="contact">
+		<?php jwResumeSectionTitle('Contact Me'); ?>
+		<div class="container inner">
+			<div class="col-xs-12">
+				<div class="address group">
+					<h5><i class="fa fa-map-marker"></i> Current Address</h5>
+					<p>
+						1077 Texas St.
+						<br>
+						San Francisco, CA 94107
+					</p>
+					<hr class="contact-divider">
+				</div>
+				<div class="address group">
+					<h5><i class="fa fa-home"></i> Permanent Address</h5>
+					<p>
+						44020 Glenraven Rd
+						<br>
+						Lancaster, CA 93535
+					</p>
+					<hr class="contact-divider">
+				</div>
+				<div class="group">
+					<h5><i class="fa fa-phone"></i> Phone</h5>
+					<p><img src="../img/phone.png"></p>
+					<hr class="contact-divider">
+				</div>
+				<div class="group">
+					<h5><i class="fa fa-inbox"></i> Email</h5>
+					<p><img src="../img/email.png"></p>
+					<hr class="contact-divider">
+				</div>
+				<div class="group">
+					<a id="print" target="_blank" href="https://docs.google.com/document/d/1JICJu0qKsOiubKJfguyEqNr7K52_Xq2GhBlF849htvY/edit">
+						<h5><i class="fa fa-print"></i>Get a printer-friendly résumé</h5>
+					</a>
+				</div>
+			</div>
+			<!-- <button class="btn btn-1 btn-1e"><i class="fa fa-print"></i> Print my resume as a PDF</button> -->
+		</div>
+		<i class="fa fa-envelope-alt section-bg"></i>
+	</section>
+
+</div>
+
+
+<?php
+	include '../footer.php';
+?>
