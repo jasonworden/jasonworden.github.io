@@ -532,11 +532,35 @@ h5 {
   border-radius: 5px;
 }
 
+@media(max-width: 767px) {
+  .col-social-links > .clearfix {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .social-link {
+    margin: 0 5px;
+  }
+}
+
+.social-link {
+  display: inline-block;
+}
+
 @media(min-width: 768px) {
   .skill-label {
     position: relative;
     bottom: 3px;
     margin-left: .4em;
+  }
+
+  .social-link {
+    margin-left: 10px;
+  }
+
+  .col-social-links > .clearfix {
+    padding-bottom: 10px;
+    text-align: right;
   }
 }
 
