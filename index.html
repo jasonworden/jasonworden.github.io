@@ -58,11 +58,11 @@
                             <td>
                                 <h1 class="big">I'm Jason Worden.</h1>
                                 <h3 id="undergrad">
-						I prototype, design, and develop websites as a front-end developer.
-					</h3>
+                                    I prototype, design, and develop websites as a front-end developer.
+                                </h3>
                                 <h3>
-						I create live visual experiences at concerts and for installations as an audio-visual artist and VJ.
-					</h3>
+                                    I create live visual experiences at concerts and for installations as an audio-visual artist and VJ.
+                                </h3>
                             </td>
                         </tr>
                     </table>
@@ -154,7 +154,11 @@
             <div class="container inner">
                 <div id="dev-social-links" class="col-social-links">
                     <div class="clearfix">
-                        <a class="social-link" href="https://github.com/jasonworden" target="_blank">
+                        <a class="social-link"
+                           href="https://github.com/jasonworden"
+                           target="_blank"
+                           data-toggle="tooltip" data-placement="top" title="Github"
+                        >
                             <i class="fa fa-2x fa-github" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -285,20 +289,36 @@
                         </p>
                     </div>
                     <div class="col-sm-3 col-md-4 col-lg-5 col-social-links">
-                        <div class="clearfix">
-                            <a class="social-link" href="https://vimeo.com/jsonpayload" target="_blank">
+                        <div class="clearfix"><!--
+                            --><a class="social-link"
+                               href="https://vimeo.com/jsonpayload"
+                               target="_blank"
+                               data-toggle="tooltip" data-placement="top" title="Vimeo"
+                            >
                                 <i class="fa fa-2x fa-vimeo" aria-hidden="true"></i>
-                            </a>
-                            <a class="social-link" href="https://www.youtube.com/playlist?list=PLqQs_CT0z86Qju5PjII8-hUyj51uLbmAa" target="_blank">
+                            </a><!--
+                            --><a class="social-link"
+                               href="https://www.youtube.com/playlist?list=PLqQs_CT0z86Qju5PjII8-hUyj51uLbmAa"
+                               target="_blank"
+                               data-toggle="tooltip" data-placement="top" title="Youtube"
+                            >
                                 <i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
-                            </a>
-                            <a class="social-link" href="https://www.instagram.com/jsonpayload" target="_blank">
+                            </a><!--
+                            --><a class="social-link"
+                               href="https://www.instagram.com/jsonpayload"
+                               target="_blank"
+                               data-toggle="tooltip" data-placement="top" title="Instagram"
+                            >
                                 <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a class="social-link" href="https://www.facebook.com/jsonpayload" target="_blank">
+                            </a><!--
+                            --><a class="social-link"
+                               href="https://www.facebook.com/jsonpayload"
+                               target="_blank"
+                               data-toggle="tooltip" data-placement="top" title="Facebook"
+                            >
                                 <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                            </a><!--
+                        --></div>
                     </div>
                 </div>
                 <div class="skill-list-alt">
@@ -538,6 +558,13 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
         })();
+    </script>
+
+    <script>
+        head.ready(function() {
+//          $('.col-social-links').trim();
+          $('[data-toggle="tooltip"]').tooltip();
+        });
     </script>
 </body>
 
