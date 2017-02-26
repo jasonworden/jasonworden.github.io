@@ -256,17 +256,17 @@ section#edu h3 {
   margin: 0;
 }
 
-.school {
+.school:first-child {
   margin-bottom: 20px;
-  border: 2px solid rgba(255, 20, 108, .3);
-  display: inline-block;
-  padding: 25px 25px 15px 25px;
-  border-radius: 10px;
+}
+
+.school p {
+  margin-bottom: 8px;
 }
 
 .divider {
-  color: rgba(255, 20, 108, .3);
-  background: rgba(255, 20, 108, .3);
+  color: rgb(255, 20, 108);
+  background: rgb(255, 20, 108);
 }
 
 .school-divider {
