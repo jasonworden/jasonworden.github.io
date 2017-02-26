@@ -29,6 +29,10 @@ p, a, ul, li, h3 {
     font-family: Geneva, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 span.i-b {
   display: inline-block;
 }
@@ -45,38 +49,6 @@ span.i-b {
   display: inline-block;
   margin-left: .5em;
   margin-right: .5em;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-section:nth-chiodd) {
-  background: rgb(249,255,254);
-}
-section:nth-child(odd) {
-  color: rgb(0,229,197);
-}
-section:nth-child(odd) .section-title {
-  background: rgb(0,229,197);
-  color: rgb(249,255,254);
-}
-section:nth-child(odd) div.tri {
-  border-top-color: rgb(0,229,197);
-}
-
-section:nth-child(even) {
-  background: rgb(229,255,251);
-}
-section:nth-child(even) {
-  color: rgb(0,209,180);
-}
-section:nth-child(even) .section-title {
-  background: rgb(0,209,180);
-  color: rgb(229,255,251);
-}
-section:nth-child(even) div.tri {
-  border-top-color: rgb(0,209,180);
 }
 
 @keyframes bounce {
@@ -135,6 +107,8 @@ section:nth-child(even) div.tri {
 section {
   position: relative;
   overflow: hidden;
+  background: rgb(249,255,254);
+  color: rgb(0,229,197);
 }
 
 section .container.inner {
@@ -147,7 +121,6 @@ h1.big {
 }
 
 h2.section-title {
-  /*background: rgba(0,52,45,.8);*/
   margin: 0;
   font-size: 1.3em;
   position: relative;
@@ -158,19 +131,25 @@ h5.position {
   margin-bottom: 15px;
 }
 
-div.tri {
+.tri {
   width: 0;
   height: 0;
   border: 0 solid transparent;
   border-top-width: 30px;
   border-bottom-width: 30px;
   border-top-color: rgba(0,52,45,.08);
+  border-top-color: rgb(0,229,197);
 
   position: absolute;
   bottom: -60px;
 }
 
+.section-title {
+  color: rgb(249,255,254);
+}
+
 .title-wrapper {
+  background: rgb(0,229,197);
   position: relative;
   margin-bottom: 50px;
 }
@@ -413,10 +392,10 @@ section#design h4 {
 
     h2.section-title {
       text-align: left;
-      padding: 15px 30px;
+      padding: 15px 0;
     }
 
-    div.tri {
+    .tri {
       border-left-width: 50px;
       border-right-width: 50px;
       left: 30px;
@@ -442,10 +421,10 @@ section#design h4 {
     display: inline-block;
     width: 350px;
     text-align: center;
-    padding: 15px 30px 10px 30px;
+    padding: 15px 0 10px;
   }
 
-  div.tri {
+  .tri {
     border-left-width: 175px;
     border-right-width: 175px;
   }
@@ -461,19 +440,15 @@ section#intro {
 }
 
 @media (min-width: 768px) and (min-height: 595px) {
-  table.section {
-    min-height: 100%;
-    height: 100%;
-  }
-
   section#intro {
     padding-bottom: 0px;
   }
 }
 
 @media (min-width: 1200px) {
-
-  body { font-size: 22px }
+  body {
+    font-size: 22px;
+  }
 
   h1.big {
     font-size: 52px;
@@ -520,7 +495,7 @@ h5 {
   }
 
   #dev-social-links {
-    margin-top: -57px;
+    margin-top: -35px;
   }
 }
 

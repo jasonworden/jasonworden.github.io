@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8" lang="en-US">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html lang="en-US">
-<!--<![endif]-->
-
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <!--480-->
     <title>I'm Jason Worden</title>
     <meta name="apple-mobile-web-app-title" content="Jason W.">
     <link rel="shortcut icon" href="img/jw-favicon.png" />
@@ -24,33 +14,21 @@
     <meta property="og:url" content="http://jasonworden.com/" />
     <meta property="og:image" content=http://jasonworden.com/img/jw-ios-icon.png />
 
-    <!--[if lt IE 9]>
-	<script src="js/html5.js"></script>
-	<![endif]-->
     <script src="js/dist/head.load.min.js"></script>
     <script>
       head.js(
-        'https://code.jquery.com/jquery-2.2.4.min.js',    //v3 not compatible with smooth scroll plugin
-        'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js',
-        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js',
-        'js/dist/jquery.smooth-scroll.js'
+        '//code.jquery.com/jquery-2.2.4.min.js',    //version 3 not compatible with smooth scroll plugin
+        '//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js',
+        '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js',
+        'js/dist/jquery.smooth-scroll.js',
+        'js/resume.js'
       );
     </script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='css/resume-alternating.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-    <![if !IE]>
-    <script>
-        head.js(
-//            'js/dist/jquery.onepage-scroll.js',
-            'js/resume.js'
-        );
-    </script>
-    <![endif]>
-
     <div id="main">
 
         <section id="intro">
@@ -79,10 +57,12 @@
         </section>
 
         <section id="powwow">
-            <div class="container title-wrapper">
-                <h2 class="section-title">PowWow Energy</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">PowWow Energy</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="row">
@@ -90,7 +70,7 @@
                         <h5 class="position">Front-End Engineer</h5>
                         <p><a target="_blank" href="//www.powwowenergy.com/">PowWow Energy</a> is a start-up that turns data into answers to make the life of growers easier—not more saturated with complicated data.</p>
                         <p>
-                            I utilize the Django web framework and several front-end technologies including Knockout, React, Redux, and the Google Maps API to create a smooth user experience for growers and crop advisors.
+                            I utilize the Django web framework and several front-end technologies including Knockout, React, Redux, Highcharts and the Google Maps API to create a smooth user experience for growers, farm managers, and crop advisors.
                         </p>
                         <p>
                             As user stories develop into feature definitions, I iterate on mock-ups and write code across the stack to bring these new features to life.
@@ -103,10 +83,12 @@
         </section>
 
         <section id="oniracom">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Oniracom</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Oniracom</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="row">
@@ -126,10 +108,12 @@
         </section>
 
         <section id="svm">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Speak Volumes</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Speak Volumes</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="row">
@@ -160,10 +144,12 @@
         </section>
 
         <section id="dev">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Dev Skills</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Dev Skills</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="container inner">
                 <div id="dev-social-links" class="col-social-links">
                     <div class="clearfix">
@@ -209,6 +195,9 @@
                     </span>
                     <span class="badge badge-pill badge-skill">
                         Google Maps Javascript API
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Highcharts
                     </span>
 
                     <h6>Back-end</h6>
@@ -269,10 +258,12 @@
         </section>
 
         <section id="cc">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Audio-Visuals</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Audio-visuals</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="row">
@@ -327,10 +318,12 @@
         </section>
 
         <section id="design">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Design</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Design skills</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="col-12">
@@ -353,10 +346,12 @@
         </section>
 
         <section id="edu">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Education</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Education</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="school">
@@ -387,10 +382,12 @@
         </section>
 
         <section id="contact">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Contact Me</h2>
-                <div class="tri"></div>
-            </div>
+            <header class="title-wrapper">
+                <div class="container">
+                    <h2 class="section-title">Contact me</h2>
+                    <div class="tri"></div>
+                </div>
+            </header>
             <div class="clearfix"></div>
             <div class="container inner">
                 <div class="col-12">
@@ -459,10 +456,8 @@
 
     <script>
         head.ready(function() {
-//          $('.col-social-links').trim();
           $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
 </body>
-
 </html>
