@@ -342,6 +342,17 @@ a#print:hover h5 {
   background: rgba(229,255,250,1);
 }
 
+.other-skill {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.other-skill h5 {
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
 section#design h6 {
   font-size: 4em;
   text-align: center;
