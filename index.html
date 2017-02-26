@@ -29,11 +29,14 @@
 	<![endif]-->
     <script src="js/dist/head.load.min.js"></script>
     <script>
-        //head.js('js/dist/jquery-1.10.2.js','js/dist/bootstrap.js');
-        head.js('js/dist/jquery-1.10.2.min.js', 'js/dist/bootstrap.min.js');
+      head.js(
+        'https://code.jquery.com/jquery-2.2.4.min.js',    //v3 not compatible with smooth scroll plugin
+        'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js',
+        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js',
+        'js/dist/jquery.smooth-scroll.js'
+      );
     </script>
-    <link href='css/dist/bootstrap.css' rel='stylesheet' type='text/css'>
-    <!--link href='css/dist/bootstrap.min.css' rel='stylesheet' type='text/css'-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='css/resume-alternating.css' rel='stylesheet' type='text/css'>
 </head>
@@ -74,7 +77,7 @@
             <div class="container inner">
                 <div class="row">
                     <div class="col-sm-9 col-md-8 col-lg-6">
-                        <h5 class="position">Front End / Full Stack Developer</h5>
+                        <h5 class="position">Front-End Engineer</h5>
                         <p><a target="_blank" href="//www.powwowenergy.com/">PowWow Energy</a> is a start-up that turns data into answers to make the life of growers easier—not more saturated with complicated data.</p>
                         <p>
                             I utilize the Django web framework and several front-end technologies including Knockout, React, Redux, and the Google Maps API to create a smooth user experience for growers and crop advisors.
@@ -98,8 +101,8 @@
             <div class="container inner">
                 <div class="row">
                     <div class="col-sm-9 col-md-8 col-lg-6">
-                        <h5 class="position">Front End Developer</h5>
-                        <p>I was a part of the <a target="_blank" href="http://oniracom.com/">Oniracom</a> team from July 2013 - May 2015 as a front-end developer.</p>
+                        <h5 class="position">Web Developer</h5>
+                        <p>I was a part of the <a target="_blank" href="http://oniracom.com/">Oniracom</a> team from July 2013 - May 2015 as a web developer.</p>
                         <p>I worked closely with other developers, designers, strategists, and clients to help build responsive websites - many of which are designed to be a breeze to manage in the back-end through ExpressionEngine, Wordpress, and WooCommerce.</p>
                         <p><em>for example:</em> <a target="_blank" href="http://sbmarathon.com/">Santa Barbara Marathon</a></p>
                         <p>
@@ -125,9 +128,6 @@
                         <p>
                             <a href="https://www.speakvolumesmedia.com/" target="_blank">Speak Volumes Media</a>
                             (2013-2016) is a music media entity that I co-founded in April 2013. I developed and designed the responsive website and have been a key decision-maker throughout.
-                        </p>
-                        <p>
-                            I performed visuals at several of our shows, including for DâM-FunK and Peaking Lights.
                         </p>
                         <p>
                             We covered music we like from all over and gave exposure to several local Santa Barbara and Isla Vista acts. Fostering local talent is a proud mark left behind in the ever-so-transient college town culture.
@@ -166,112 +166,92 @@
                         </a>
                     </div>
                 </div>
-                <div class="skill-list-alt">
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <h6>Client-side ES5 JavaScript + jQuery<span class="self-taught"></span></h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                        </div>
-                        <h6>HTML5 + CSS3 + LESS<span class="self-taught"></span></h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                        </div>
-                        <h6>
-                            Django (Python web framework)
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            React.js ecosystem + Redux.js
-                            <span class="skill-label">Currently Learning</span>
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            ES6/7, Webpack, NPM ecosystem
-                            <span class="skill-label">Currently Learning</span>
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Node.js, Express.js, Meteor
-                            <span class="skill-label">Currently Learning</span>
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>Wordpress development (CMS in PHP)</h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Knockout.js (Model-View-ViewModel library)
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>C/C++</h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>PHP<span class="self-taught"></span></h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Matlab
-                            <i class="fa fa-ellipsis-v vert-divider divider"></i>
-                            for math + image processing
-                        </h6>
-                    </div>
+                <div class="skills">
+
+                    <h6>Front-end</h6>
+
+                    <span class="badge badge-pill badge-skill">
+                        React.js
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Redux.js
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        ES6/7
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        NPM ecosystem
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        jQuery (and plugin ecosystem)
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        PostCSS / SASS
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Bootstrap / Reactstrap
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Responsive web design
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Knockout.js
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Google Maps Javascript API
+                    </span>
+
+                    <h6>Back-end</h6>
+
+                    <span class="badge badge-pill badge-skill">
+                        Django
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        PostGres / PostGIS
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Express.js
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Node.js
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Mongoose
+                    </span>
+
+                    <h6>CMS</h6>
+
+                    <span class="badge badge-pill badge-skill">
+                        ExpressionEngine
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Wordpress
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Woocommerce
+                    </span>
+
+
+                    <h6>Other</h6>
+
+                    <span class="badge badge-pill badge-skill">
+                        Git
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Matlab
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        C++ OpenCV library
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Google Analytics custom dashboards
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Google Analytics custom event tracking
+                    </span>
+                    <span class="badge badge-pill badge-skill">
+                        Mixpanel custom event tracking
+                    </span>
                 </div>
             </div>
             <i class="fa fa-angle-double-down scroll-arrow" aria-hidden="true" style="display: none" data-target="5"></i>
@@ -331,82 +311,6 @@
                         --></div>
                     </div>
                 </div>
-                <div class="skill-list-alt">
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <h6>GrandVJ</h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <h6>Resolume Arena</h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>Analog Video Synthesis / LZX Industries Eurorack modules</h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>Arduino + DIY/Maker Electronics</h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Paracosm Lumen
-                            <i class="fa fa-ellipsis-v vert-divider divider"></i>
-                            Software analog video synthesizer
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Projection mapping
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Quartz Composer + Visual Programming
-                        </h6>
-                    </div>
-                    <div class="skill">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <h6>
-                            Cinder
-                        </h6>
-                    </div>
-                </div>
             </div>
             <i class="fa fa-angle-double-down scroll-arrow" aria-hidden="true" style="display: none" data-target="6"></i>
             <i class="fa fa fa-building-o fa-rotate-270 section-bg"></i>
@@ -414,50 +318,23 @@
 
         <section id="other">
             <div class="container title-wrapper">
-                <h2 class="section-title">Other Skills</h2>
+                <h2 class="section-title">Design</h2>
                 <div class="tri"></div>
             </div>
             <div class="clearfix"></div>
             <div class="container inner">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <div class="other-skill">
                         <h6>Ps</h6>
                         <h5>Photoshop</h5>
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
                     </div>
                     <div class="other-skill">
                         <h6>Ai</h6>
                         <h5>Illustrator</h5>
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-empty"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                    </div>
-                    <div class="other-skill">
-                        <h6>Id</h6>
-                        <h5>InDesign</h5>
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-empty"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
                     </div>
                     <hr class="other-divider divider">
                     <h4>
-                        UI Prototyping with Balsamiq Mockups
-                    </h4>
-                        <hr class="other-divider divider">
-                        <h4>
-                        Google Analytics and Mixpanel: custom implementations of event tracking, dashboards, and reports
-                    </h4>
-                        <hr class="other-divider divider">
-                        <h4>
-                        Analytical + computer cartography using GIS software
+                        User Interface Prototypes and Wireframes with Balsamiq Mockups
                     </h4>
                 </div>
             </div>
@@ -506,7 +383,7 @@
             </div>
             <div class="clearfix"></div>
             <div class="container inner">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <div class="address group">
                         <h5><i class="fa fa-map-marker inline-margin-right"></i> Current Address</h5>
                         <p>

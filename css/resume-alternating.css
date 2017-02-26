@@ -108,11 +108,11 @@ section:nth-child(even) div.tri {
   margin-left: -11.5px;
   font-size: 35px;
   cursor: pointer;
-  color: rgba(255, 103, 129, .5);
+  color: rgba(255, 20, 108, .5);
 }
 
 .scroll-arrow:hover {
-  color: rgba(255, 103, 129, 1);
+  color: rgba(255, 20, 108, 1);
 }
 
 @media(min-width: 768px) and (min-height: 595px) {
@@ -209,7 +209,7 @@ a:focus,
 h4 a:focus,
 .stars {
   text-decoration: none;
-  color: rgba(255, 103, 129, .7);
+  color: rgba(255, 20, 108, .7);
   /*color: rgb(229, 83, 0);*/
 }
 
@@ -235,7 +235,7 @@ a, h4 a,
 /*h4 a:hover,*/
 a:hover {
   /*opacity: .75;*/
-  color: rgba(255, 103, 129, 1);
+  color: rgba(255, 20, 108, 1);
 }
 
 h3 {
@@ -274,15 +274,15 @@ section#edu h3 {
 
 .school {
   margin-bottom: 20px;
-  border: 1px solid rgba(255, 103, 129, .3);
+  border: 1px solid rgba(255, 20, 108, .3);
   display: inline-block;
   padding: 25px 25px 15px 25px;
   border-radius: 10px;
 }
 
 .divider {
-  color: rgba(255, 103, 129, .3);
-  background: rgba(255, 103, 129, .3);
+  color: rgba(255, 20, 108, .3);
+  background: rgba(255, 20, 108, .3);
 }
 
 .school-divider {
@@ -576,4 +576,22 @@ h5 {
   .skill-label {
     bottom: 4px;
   }
+}
+
+.badge-skill {
+  display: inline-block;
+  margin-right: .5em;
+  margin-bottom: .8em;
+  background: rgb(0,209,180);
+  font-size: 1em;
+}
+
+@media(min-width: 992px) {
+  .badge-skill {
+    font-size: .9em;
+  }
+}
+
+h6 {
+  text-transform: uppercase;
 }
