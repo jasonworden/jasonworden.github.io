@@ -342,6 +342,9 @@ section#design h4 {
   font-size: 1.4em;
 }
 
+#intro h3 {
+  font-weight: bold;
+}
 
 @media (max-width: 480px) {
   body { font-size: 15px }
@@ -397,6 +400,10 @@ section#design h4 {
       border-left-width: 50px;
       border-right-width: 50px;
       left: 30px;
+    }
+
+    #intro h3 {
+      font-size: 22px;
     }
 
 }
